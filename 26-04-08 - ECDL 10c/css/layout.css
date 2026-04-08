@@ -1,0 +1,89 @@
+css code
+{}
+
+#main
+{
+margin: 0px auto; 
+position: relative; 
+width: 1000px;
+}
+
+#top
+{
+position: absolute;
+top: 0px;
+left: 0px;
+background-image: url("../images/pozadi_top.jpg");
+height: 100px;
+width: 980px;
+padding: 10px;
+}
+
+#header
+{
+position: absolute;
+top: 120px;
+left: 0px;
+background-color: #669988;
+height: 20px;
+padding: 7px 10px 3px 10px;
+width: 980px;
+color: white;
+}
+
+#left
+{
+position: absolute;
+top: 150px;
+left: 0px;
+width: 160px;
+min-height: 400px;
+padding: 10px;
+background-color: #EEEEEE;
+overflow: auto;
+}
+
+#content
+{
+position: absolute;
+top: 150px;
+left: 180px;
+width: 800px;
+min-height: 400px;
+padding: 10px;
+overflow: auto;
+}
+
+body 
+{ 
+color: black; 
+background: white; 
+font-family: arial, helvetica, verdana, sans serif;
+font-size:13px; 
+} 
+
+h1
+{
+font-weight: normal;
+font-size: 36px;
+color: #000000;
+font-family: arial, helvetica, verdana, sans serif;
+margin: 15px;
+text-align: center;
+}
+
+h2
+{
+font-weight: bold;
+font-size: 16px;
+color: #000022;  
+margin-right: 12px;
+font-family: arial, helvetica, verdana, sans serif;
+}
+
+a
+{
+font-weight: bold;
+text-decoration: none;
+}
+

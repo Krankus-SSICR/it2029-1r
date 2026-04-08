@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šachový turnaj - přihláška</title>
+</head>
+<body>
+    <h2>Přihláška k šachovému turnaji</h2>
+    <form action="mailto:krankus@stredniskola.com" method="POST">
+        <h3>Osobní údaje</h3>
+        <input type="text" placeholder="Vaše jméno:" required>
+        <br><br>
+        
+        <label for="prijmeni">Příjmení</label>
+        <input type="text" id="prijmeni">
+        <br><br>
+
+        <input type="email" placeholder="Váš Email" required>
+        <br><br>
+
+        <input type="password" placeholder="Zadejte vaše heslo" required>
+        <br><br>
+
+        <label for="narozeni">Datum narození</label>
+        <input type="date" id="narozeni">
+
+        <h3>Informace o hráči</h3>
+        <h4>Preferovaná barva figur</h4>
+        <label for="cerna">Černá: </label>
+        <input type="radio" id="cerna" name="barva">
+        <label for="bila">Bílá: </label>
+        <input type="radio" id="bila" name="barva">
+
+        <h3>Úroveň dovedností</h3>
+        <select name="" id="">
+            <option value="">Začátečník</option>
+            <option value="" selected>Pokročilý</option>
+            <option value="">Expert</option>
+        </select>
+        <br><br>
+
+        <label for="novinky">Chcete odebírat novinky?</label>
+        <input type="checkbox" id="novinky" checked>
+        <br><br>
+        <input type="reset">
+        <input type="submit" value="Přihlásit">
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial;
+}
+h2 {
+    color: darkgreen;
+}
+p {
+    font-size: 16px;
+    /*změna velikosti písma*/
+
+    text-align: justify;
+    /*zarovnání textu do bloku*/
+    text-align-last: center;
+    /*zarovnání posledního řádku*/
+    line-height: 2em;
+    /*výška řádku 2em = 2*velikost písma*/
+}
+span {
+    font-weight: bold;
+    /*tučné písmo*/
+    text-decoration: underline 5px greenyellow double;
+    /*podtržení, můžeme upravit vzhled stjeně jako u borderu*/
+    text-transform: uppercase;
+    /* nastavuje malá/VELKÁ písmena*/
+    letter-spacing: 70px;  
+}

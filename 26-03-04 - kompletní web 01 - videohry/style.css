@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: #262626;
+    color: #dedede;
+    font-family: Verdana;
+}
+nav ul {
+    margin: 0;
+    background: maroon;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+nav a {
+    color: #dedede;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    opacity: 0.7;
+}
+nav a:hover {
+    opacity: 1;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+    border-left: 0.3em solid hotpink;
+    padding-left: 1em;
+}
+
+table {
+    border: 0.2em solid maroon;
+}
+
+td {
+    width: 33%;
+    border-bottom: 2px solid maroon;
+}
+
+td img {
+    width: 100%;
+}
+
+tr td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+th {
+    background: maroon;
+    color: white;
+    padding: 1em;
+}
+tr:last-child td {
+ border-bottom: none;
+}
+
+.moba img {
+ float: left;
+ height: 10em;
+ margin-right: 2em;
+}
+.rozdeleni {
+    height: 3px;
+    width: 100%;
+    background: maroon;
+}
+.moba p {
+    width: 80%;
+}
+.wow {
+    background: darkorchid;
+}
+#mmo div {
+    padding: 1em 10%;
+}
+#mmo h2 {
+    margin-left: 10%;
+}
+#mmo {
+    margin-left: 0;
+    margin-right: 0;
+}
+.metin{
+    background: crimson;
+    color: goldenrod;
+}
+.roblox{
+    background: lime  ;
+    color: darkgreen ;
+}

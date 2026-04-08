@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Calibri;
+}
+section {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section p {
+    font-size: 18px;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+    text-indent: 60px;
+}
+section h2 {
+    font-size: 36px;
+    border: 6px solid brown;
+    padding: 0.3em;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 6px;
+}
+section span {
+    color: purple;
+    text-decoration: line-through 2px solid red;
+    font-weight: bold;
+    text-transform: capitalize;
+}

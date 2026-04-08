@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: lightskyblue;
+    margin-top: 100px;
+}
+nav ul {
+    background: lightcoral;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul li {
+    display: inline;
+}
+h2 {
+    text-align: center;
+    margin-top: 200px;
+}
+.jidelna {
+    width: 1200px;
+    height: 300px;
+    border: 5px solid red;
+    position: relative;
+    left: 100px;
+}
+.zidle {
+    width: 100px;
+    height: 100px;
+    background: brown;
+    left: 200px;
+    bottom: 0;
+    position: absolute;
+}

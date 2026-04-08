@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+    background: antiquewhite;
+}
+h2 {
+    font-size: 38px;
+    border: 3px solid darkred;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-radius: 1500px;
+}
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+section p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+span {
+    letter-spacing: 10px;
+    color: darkorchid;
+    background: greenyellow;
+    text-decoration: overline 3px double blue;
+}
+.stred p {
+    text-align: center;
+}
+.vpravo p {
+    text-align: right;
+}
+.blok p {
+    text-align: justify;
+}
+section a{
+    background: red;
+    padding: 6px;
+    text-decoration: none;
+    color: yellow;
+}

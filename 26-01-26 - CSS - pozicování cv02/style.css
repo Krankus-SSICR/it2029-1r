@@ -1,0 +1,42 @@
+.hriste {
+    width: 1400px;
+    height: 800px;
+    background: green;
+    position: relative;
+}
+.hrac {
+    height: 50px;
+    width: fit-content;
+    background: darkred;
+    position: absolute;
+}
+
+.c5 {
+    right: 100px;
+    top: 300px;
+}
+.c6 {
+    top: 300px;
+    right: -200px;
+}
+.c7 {
+    left: 30%;
+    bottom: 10%;
+}
+nav ul {
+    margin: 0;
+    padding: 30px;
+    background: deeppink;
+    margin-bottom: 1500px;
+    list-style: none;
+}
+nav li {
+    float: left;
+    margin-left: 50px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}

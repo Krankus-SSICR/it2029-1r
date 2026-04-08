@@ -1,0 +1,16 @@
+body {
+    background: deeppink;
+    color: bisque;
+}
+#kapr {
+    font-size: x-large;
+}
+div p {
+    color: green;
+}
+.stika p {
+    font-size: xx-large;
+}
+h2, h3 {
+    color: blueviolet;
+}

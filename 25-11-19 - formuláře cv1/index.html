@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláře - cv1</title>
+</head>
+<body>
+    <h2>Pizzerie it2029 - sluníčka</h2>
+    <form action="mailto:krankus@stredniskola.com" method="POST">
+        <label for="jmeno">Jméno: </label>
+        <input type="text" id="jmeno" required><br><br>
+        
+        <input type="text" placeholder="Příjmení" required>
+        <br><br>
+        <input type="email" placeholder="Emailová adresa">
+
+        <h3>Základ na pizzu</h3>
+        <label for="rajcatovy">Rajčatový</label>
+        <input type="radio" id="rajcatovy" name="zaklad" checked>
+        <label for="smetana">Smetanový</label>
+        <input type="radio" id="smetana" name="zaklad">
+
+        <h3>Platba</h3>
+        <label for="karta">Platba kartou</label><input type="checkbox" id="karta">
+
+        <h3>Přísady</h3>
+        <select name="prisady" required>
+            <option value="salam">Salám</option>
+            <option value="kukurice">Kukuřice</option>
+            <option selected disabled>Přísady na pizzu</option>
+
+        </select>
+
+        <h3>Vymazat formulář</h3>
+
+        <input type="reset" value="Vymazat formulář">
+
+        <h3>Další vstupy formuláře</h3>
+
+        <input type="file"><br><br>
+        <input type="password"><br><br>
+        <input type="number"><br><br>
+        <input type="date"><br><br>
+        <input type="month"><br><br>
+        <input type="color">
+
+        
+
+
+
+
+
+
+
+
+
+        <br><br>
+        <input type="submit" value="Objednat pizzu!">
+    </form>
+</body>
+</html>
