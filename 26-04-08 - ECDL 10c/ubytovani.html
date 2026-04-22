@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset=UTF-8">
+<meta charset="UTF-8">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <title>Dolní Jalovice - ubytování</title>
 </head>
@@ -52,12 +52,22 @@ Doporučujeme dobré oblečení a dobré pojištění.</li>
 <br>
 Datum předpokládaného příjezdu:<br>
 <input size="30" name="prijezd" /><br>
-<br>Druh ubytování:<br><br><br>Doprava:<br>
+<br>Druh ubytování:<br>
+<select name="druh">
+    <option>(vyberte si)</option>
+    <option>Penzion</option>
+    <option>Soukromí</option>
+    <option>Samota u lesa</option>
+</select>
+<br><br>Doprava:<br>
 <input name="dpr" value="0" type="radio" />Vlak
 &nbsp; <input name="dpr" value="1" type="radio" />Autobus
-&nbsp; <br>
+&nbsp;
+<input type="radio" name="dpr">Vlastní
+<br>
 <br>
 <input name="odeslat" value="Odeslat" type="submit" />
+<input type="reset" name="clear" value="Vymazat formulář">
 &nbsp; <br>
 <br>
 </form>
