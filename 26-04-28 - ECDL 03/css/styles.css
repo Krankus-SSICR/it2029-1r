@@ -1,0 +1,45 @@
+﻿body 
+{ 
+font-family: arial, helvetica, verdana, sans serif; 
+font-size:12px;
+ 
+} 
+
+a:link 
+{ 
+color: blue; 
+background: white;
+text-decoration:underline;
+Font-family: arial, helvetica, verdana, sans serif;
+font-size:12px;
+
+} 
+
+
+p 
+{ 
+text-indent: 15%; 
+
+} 
+
+p.margins 
+{ 
+margin-left: 20%; 
+margin-right: 20%;
+Font-family: arial, helvetica, verdana, sans serif;
+Font-size: 12px
+
+} 
+
+h1
+{
+font-weight: normal;
+font-Size: 18px; 
+color: #000000; 
+font-family: arial; 
+text-align: center;
+
+}
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+<title>Indigo Travel European Cities Tour - Itinerary</title>
+<style type="text/css">
+<!--
+h1 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 36px;
+	color: ##ffffff;
+}
+h2 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: ##6f00ff;
+}
+text {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<h1>Itinerary</h1>
+<h2>Dates and locations for your trip</h2>
+<p>If further details <br> are required for hotel details please contact your tour representative</p>
+<p>Please use the links on the left to return to information about cities or for special requirements</p>
+</body>
+</html>

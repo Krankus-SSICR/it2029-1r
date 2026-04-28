@@ -1,0 +1,136 @@
+﻿css code
+#container
+{
+	width: 90%;
+	margin: 10px auto;
+	background-color: #ffffff;
+	color: #333;
+	line-height: 130%;
+}
+
+#top
+{
+	padding: 0;
+	background-color: #4B0082;
+	height:170px;
+	overflow: auto;
+	line-height: 300%;
+	color:white;
+
+}
+#logo_place
+{
+	float: left;
+	width: 160px;
+	height:170px;
+	margin: 0;
+	padding: 0;
+	background-color: #4B0082;
+	overflow: auto;
+	
+}
+
+
+#leftnav
+{
+	float: left;
+	width: 148px;
+	position: relative;
+	margin: 1;
+	clear: both;
+	padding: 1em;
+	background-color: #4B0082;
+	display: inline;
+	color:white
+}
+
+#leftnav li
+{
+	margin-left: -40px; 
+	line-height: 200%; 
+	list-style-type: none; 
+}
+
+
+
+#content
+{	margin-left: 170px;
+	padding: 1em;
+	max-width: 70em;
+}
+
+#top h2 
+{ 	color:white; }
+
+#leftnav p 
+{ 	margin: 0 0 1em 0; }
+#content h2 
+{ 	margin: 0 0 .5em 0; }
+/* css layout */
+body 
+{ 	color: black; 
+	background: White; 
+	font-family: arial, helvetica, verdana, sans serif; 
+	font-size:12px; } 
+
+
+
+
+a:link 
+{ 	color: white;
+	font-weight: normal;
+	font-size: 14px;
+	text-indent: 5px;
+	font-family: verdana, helvetica, arial, "sans serif";
+	text-align: left;}
+a:active 
+{ 	color: white;
+	font-weight: normal;
+	font-size: 14px;
+	text-indent: 5px;
+	font-family: verdana, helvetica, arial, "sans serif";
+	text-align: left;}
+a:visited 
+{ 	color: white;
+	font-weight: normal;
+	font-size: 14px;
+	text-indent: 5px;
+	font-family: verdana, helvetica, arial, "sans serif";
+	text-align: left;}
+
+p.margins 
+{ 	margin-left: 20%; 
+	margin-right: 20%; 
+	font-family: arial, helvetica, verdana, sans serif;
+	font-size: 12px} 
+
+h1
+{
+	font-weight: normal;
+	font-Size: 36px;
+	color: #ffffff;
+	font-family: arial, helvetica, verdana, sans serif;
+	margin: 15px;
+	text-align: center;
+}
+
+h2
+{	font-weight: bold;
+	font-size: 16px;
+	margin-left: 20px;
+	color: #6F00FF;  
+	margin-right: 12px;
+	font-family:"arial","helvetica", "verdana","sans serif";
+}
+
+
+ul
+{
+	margin-left: 40px;
+}
+
+li
+{
+	margin-left: 40px; 
+	line-height: 150%;
+}
