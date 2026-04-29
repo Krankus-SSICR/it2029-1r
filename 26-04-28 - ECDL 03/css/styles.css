@@ -1,5 +1,6 @@
 ﻿body 
 { 
+background: #4b0082;
 font-family: arial, helvetica, verdana, sans serif; 
 font-size:12px;
  
@@ -34,7 +35,7 @@ Font-size: 12px
 h1
 {
 font-weight: normal;
-font-Size: 18px; 
+font-Size: 20px; 
 color: #000000; 
 font-family: arial; 
 text-align: center;

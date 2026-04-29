@@ -47,8 +47,8 @@ body {
     <li>Special Needs Assistance</li>
     <li>Transfers to alternative destinations</li>
   </ul>
-  <h2>Please complete the form below to request your special requirements:</h2>
-<form id="requirements" name="requirements" method="post" action="">
+  <a id="details"></a><h2>Please complete the form below to request your special requirements:</h2>
+<form id="requirements" name="requirements" method="post" action="mailto:requirements@indigotravel.com">
   <p>Name
     <input type="text" name="Name" id="Name" />
   </p>
@@ -66,7 +66,7 @@ body {
     <input type="radio" name="radio" id="Special Needs Assistance" value="Special Needs Assistance" />
     Special Needs Assistance</p>
   <p>
-    <input name="radio" type="radio" id="Transfers" value="Transfers" checked="checked" />
+    <input name="radio" type="radio" id="Transfers" value="Transfers" />
     Transfers</p>
   <p>
     <input type="checkbox" name="checkbox" id="checkbox" />
@@ -74,6 +74,7 @@ body {
   </p>
   <p>&nbsp;&nbsp; 
     <input type="reset" name="Reset" id="Submit" value="Reset" />
+    <input type="submit" value="Submit">
   </p>
 </form>
 <p>&nbsp;</p>
